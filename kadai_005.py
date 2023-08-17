@@ -4,5 +4,10 @@
 高さ：5cm
 公式：台形の面積 =（上辺＋下辺）× 高さ ÷ 2
 '''
-# 10+20を5でかけた値を2で割って出力する
-print(str((10+20) * 5 / 2) + "㎠")
+# 変数に代入する
+top = 10
+bottom = 20
+height = 5
+summation = (top + bottom) * height / 2
+# 結果を出力する、数値と文字列を連結する
+print(str(summation) + "㎠")
